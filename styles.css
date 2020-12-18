@@ -1,0 +1,69 @@
+#title {
+  text-align: center;
+  color: white;
+  border: solid black 1px;
+  background-color: crimson;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  margin: 2% auto;
+}
+
+#description {
+  color: black;
+  width: 50%;
+  text-align: center;
+  /* border: solid black 1px; */
+  display: flex;
+  margin: 0 auto;
+}
+
+div.formbox {
+  margin: 2% auto;
+  border: solid black 1px;
+  width: 50%;
+
+
+}
+
+.formbox form {
+  display: flex;
+  flex-flow: column;
+  margin: 0 auto;
+}
+
+.formbox input {
+  width: 95%;
+  margin: 0 auto;
+}
+
+input[type="radio"] {
+  width: 2%;
+}
+
+label {
+  color: crimson;
+  padding: 1%;
+}
+
+input[type="checkbox"] {
+  width: 2%;
+}
+
+textarea {
+  width: 95%;
+  margin: 0 auto;
+  padding: 1%;
+  resize: none;
+}
+
+button {
+  width: 25%;
+  margin: 3% auto;
+}
+
+div.copyright  {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
